@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween...</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" type="image/ico" href="imagenes/icono.ico">
+    <script src="javascripts/funciones1.js"></script>
+</head>
+<body onload="sonar('musica')">
+    <div = id="container">
+        <audio src="sonidos/Abuse In The Orphanage (online-audio-converter.com).mp3" id="musica" controls></audio>
+        <audio src="sonidos/gritoterror.mp3" id="grito"></audio>
+        <p = id="titulo">Bienvenidos a mi fiesta de Halloween...</p>
+        <p = id="texto1">Cuando estes preparado ponga el cursor encima del cuadrado y dale click</p>
+        <img id="cuadrado" src="imagenes/cuadrado.jpg" width="25" onclick="ocultar('container'); mostrar('texto2'); mostrar('container2'); mostrar('borde1'); mostrar('borde2'); mostrar('borde3'); mostrar('borde4'); mostrar('borde5'); mostrar('borde6'); mostrar('borde7'); mostrar('borde8'); mostrar('borde9')">
+    </div>
+    <div = id="container2">
+        <p = id="texto2">Trata de llegar hasta arriba, cuidado con las paredes...</p>
+        <img id="laberinto" src="imagenes/laberinto.png">
+        <img id="susto" src="imagenes/susto.jpg">
+        <div = id="borde1" onmouseover="mostrar('susto'); sonar('grito'); mostrar('bordegrande')"></div>
+        <div = id="borde2" onmouseover="mostrar('susto'); sonar('grito'); mostrar('bordegrande')"></div>
+        <div = id="borde3" onmouseover="mostrar('susto'); sonar('grito'); mostrar('bordegrande')"></div>
+        <div = id="borde4" onmouseover="mostrar('susto'); sonar('grito'); mostrar('bordegrande')"></div>
+        <div = id="borde5" onmouseover="mostrar('susto'); sonar('grito'); mostrar('bordegrande')"></div>
+        <div = id="borde6" onmouseover="mostrar('susto'); sonar('grito'); mostrar('bordegrande')"></div>
+        <div = id="borde7" onmouseover="mostrar('susto'); sonar('grito'); mostrar('bordegrande')"></div>
+        <div = id="borde8" onmouseover="mostrar('susto'); sonar('grito'); mostrar('bordegrande')"></div>
+        <div = id="borde9" onmouseover="mostrar('susto'); sonar('grito'); mostrar('bordegrande')"></div>
+        <div = id="bordegrande" onclick="ocultar('susto'); parar('grito'); ocultar('container2'); mostrar('container3'); ocultar('texto2'); mostrar('texto3')"></div>
+    </div>
+    <div = id="container3">
+        <img src="imagenes/fondo.jpg" width="2000">
+        <p = id="texto3">No has conseguido llegar hasta el final...</p>
+    </div>
+</body>
+</html>

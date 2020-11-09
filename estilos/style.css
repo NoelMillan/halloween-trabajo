@@ -1,0 +1,150 @@
+@font-face {
+    font-family: halloween1;
+    src: url('../tipografia/28\ Days\ Later.ttf');
+}
+body {
+    background-color: black;
+}
+#texto1{
+    font-family: halloween1;
+    position: absolute;
+    top: 530px;
+    left: 360px;
+    color: red;
+    font-size: 20px;
+}
+#texto2 {
+    font-family: halloween1;
+    position: absolute;
+    color: red;
+    top: 700px;
+    left: 620px;
+    font-size: 30px;
+    visibility: hidden;
+}
+#texto3 {
+    position: absolute;
+    font-family: halloween1;
+    color: red;
+    top: 300px;
+    left: 260px;
+    font-size: 50px;
+    visibility: hidden;
+}
+#container {
+    position: relative;
+    margin: auto;
+    width: 1306px;
+    height: 638px;
+} 
+#cuadrado {
+    position: absolute;
+    top: 600px;
+    left: 640px;
+}
+#titulo {
+    position: absolute;
+    font-family: halloween1;
+    top: 80px;
+    left: 280px;
+    color: red;
+    font-size: 3em;
+}
+#container2 {
+    visibility: hidden;
+    position: relative;
+    margin: auto;
+    top: -700px;
+}
+#container3 {
+    visibility: hidden;
+    position: absolute;
+    margin: auto;
+    top: -100px;
+}
+#susto {
+    position: absolute;
+    top: 30px;
+    width:2000px;
+    height:950px;
+    visibility: hidden;
+}
+#borde1 {
+    position:absolute;
+    top: -100px;
+    left: 5px;
+    width:593px;
+    height:1125px;
+    visibility: hidden;
+}
+#borde2 {
+    position:absolute;
+    top: -100px;
+    left: 600px;
+    width:155px;
+    height:650px;
+    visibility: hidden;
+}
+#borde3 {
+    position:absolute;
+    top: -100px;
+    left: 760px;
+    width:205px;
+    height:377px;
+    visibility: hidden;
+}
+#borde4 {
+    position:absolute;
+    top: -100px;
+    left: 968px;
+    width:17px;
+    height:170px;
+    visibility: hidden;
+}
+#borde5 {
+    position:absolute;
+    top: -100px;
+    left: 1365px;
+    width:563px;
+    height:1125px;
+    visibility: hidden;
+}
+#borde6 {
+    position:absolute;
+    top: -100px;
+    left: 1200px;
+    width:165px;
+    height:650px;
+    visibility: hidden;
+}
+#borde7 {
+    position:absolute;
+    top: -100px;
+    left: 1012px;
+    width:185px;
+    height:377px;
+    visibility: hidden;
+}
+#borde8 {
+    position:absolute;
+    top: -100px;
+    left: 992px;
+    width:17px;
+    height:170px;
+    visibility: hidden;
+}
+#borde9 {
+    position:absolute;
+    top: 0px;
+    left: 982px;
+    width:15px;
+    height:10px;
+    visibility: hidden;
+}
+#bordegrande {
+    position: absolute;
+    width: 2000px;
+    height: 950px;
+    top: 30px;
+    visibility: hidden;
+}
